@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/*选项卡效果2*/
+\$(function(){
+	\$('${1:.ui.tab2 li}').hover(function(){
+		\$('.tab-content2').hide();
+		\$('.ui.gsys #'+$(this).attr('lang')).show();	
+	\$('.ui.tab2 li').removeClass('active');
+	\$(this).addClass('active');
+})		   
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-01</tabTrigger>
+	<!-- Optional: 选项卡效果 -->
+	<scope>source.js</scope>
+</snippet>

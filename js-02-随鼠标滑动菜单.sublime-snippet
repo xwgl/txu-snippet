@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+\$(function(){
+	var verNav = \$(".submenu"),
+		line = verNav.siblings(".btn-bg")
+		verNavFisrt = verNav.children("li:first-child"),
+		curY = verNav.children("li.cur").position().left;
+		
+	line.height(verNavFisrt.outerHeight()-1).width(verNavFisrt.outerWidth());//设置辅助线初始化高度和宽度，也可以直接用css设置好，这里就不用js计算了 
+
+	verNav.find("li").mouseenter(function(){
+		var thisY = \$(this).position().left;
+		line.stop(true,true).animate({left:thisY},200);
+		return false
+	})
+	.end()
+	.mouseleave(function(){
+		line.stop(true,true).animate({left:curY},300)	
+	}).trigger("mouseleave");
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-02</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

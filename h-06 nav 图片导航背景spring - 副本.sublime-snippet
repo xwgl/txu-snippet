@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+	<div class="nav spans9">
+		<ul class="list">
+			<li><a href="#" class="active">首页<small>Home</small></a></li>
+			<li><a href="#">走进天源<small>About</small></a></li>
+			<li><a href="#">天源资讯<small>Consulting</small></a></li>
+			<li><a href="#">项目展示<small>Project show</small></a></li>
+			<li><a href="#">企业风采<small>Enterprise style</small></a></li>
+			<li><a href="#">加入天源<small>Join-Tianyuan</small></a></li>
+			<li><a href="#">联系我们<small>Contact us</small></a></li>
+		</ul>
+	</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>h-07</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

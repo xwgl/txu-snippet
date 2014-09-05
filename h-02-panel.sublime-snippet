@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+.panel.${1:about}>(h3.title{${2:关于金诺}}>small\{${3:About JinNuo}\})+.cnt
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>&lt;panel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

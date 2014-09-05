@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+.news{.span(5);width: 404px;
+	.title{
+		small{}
+		.more{}
+	}
+	.cnt{padding:8px;height: 190px;overflow: hidden;
+		ul{margin: 0;
+			li.thumbnail{background: none;padding-left: 0;}
+				 li{ .ovh;background: url(../images/icon-02.gif) no-repeat 0px 8px;padding-left: 10px;line-height: 25px;
+					img{margin-right: 10px;float: left;display: block;
+padding: 2px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 2px;}
+				}
+					}
+				}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>css-news</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+		  <div class="${1:nav}">
+		  	<ul class="list">
+		  		<li><a class="b1" href="#">&nbsp;</a></li>
+		  		<li><a class="b2" href="#">&nbsp;</a></li>
+		  		<li><a class="b3" href="#">&nbsp;</a></li>
+		  		<li><a class="b4" href="#">&nbsp;</a></li>
+		  		<li><a class="b5" href="#">&nbsp;</a></li>
+		  		<li><a class="b6" href="#">&nbsp;</a></li>
+		  	</ul>
+		  </div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>h-06</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

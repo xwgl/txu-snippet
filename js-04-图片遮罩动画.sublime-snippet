@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$(".xyzsal .list.img li").hover(function() {
+        \$(this).children(".mask").animate({ top: "0px" }, { queue: false, duration: 500 });
+    }, function() {
+        \$(this).children(".mask").animate({ top: "-50px" }, { queue: true, duration: 500 });
+    });
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-04</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

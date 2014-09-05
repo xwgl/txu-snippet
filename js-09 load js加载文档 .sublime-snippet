@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<!-- header -->
+<div id="${1:header}"><script> \$("#${1:header}").load("${1:header}.html")</script></div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-09</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

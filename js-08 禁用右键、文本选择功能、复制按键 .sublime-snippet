@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+//禁用右键、文本选择功能、复制按键  
+$(document).bind("contextmenu",function(){return false;});  
+$(document).bind("selectstart",function(){return false;});  
+$(document).keydown(function(){return key(arguments[0])});  
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-08</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

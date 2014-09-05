@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+\$(function () {
+    // var st = 180;
+    \$('\${1:.nav-btn a,.nav .sub-cnt,.nav .innel}').mouseenter(function () {
+        \$(this).find('.innel').stop(false, true).slideDown("slow");\$(this).parent('.nav-btn').addClass("nav-active")
+    }).mouseleave(function () {
+        \$(this).find('.innel').stop(false, true).slideUp("slow");\$(this).parent('.nav-btn').removeClass("nav-active");;
+    });
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-05</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

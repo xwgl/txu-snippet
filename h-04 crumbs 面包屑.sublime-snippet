@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+<div class="Crumbs">位置:<a href="./">首页</a> >> <a href="#">${:1公司概况}</a></div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>h-crumbs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

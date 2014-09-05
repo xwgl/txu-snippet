@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+jQuery(document).ready(function() {
+    var _leftheight = jQuery(".left").height();
+        _rightheight = jQuery(".right").height();
+        if(_leftheight > _rightheight ) {
+            jQuery(".right").height(_leftheight);
+        }
+        else {
+            jQuery(".left").height(_rightheight);
+        }
+    })
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-07</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
